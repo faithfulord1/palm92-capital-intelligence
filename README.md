@@ -48,3 +48,7 @@ Palm92 Capital Intelligence is decision support. The Palm92 Capital Readiness Sc
 ## Status
 
 Portfolio MVP in active development.
+
+## Local MCP tools
+
+The read-only MCP server now runs from `mcp-server/`. It accepts supplied planning figures and uses the same deterministic readiness and scenario engines as the app. Run `npm ci --prefix mcp-server`, `npm run build --prefix mcp-server`, and `npm test --prefix mcp-server`. See [MCP tools](docs/MCP-TOOLS.md) for available tools and connection instructions. This is a local stdio integration; no hosted MCP endpoint is claimed.
